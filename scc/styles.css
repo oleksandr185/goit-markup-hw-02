@@ -116,7 +116,7 @@ border-radius: 4px;
 /* main-qualities */
 .main-qualities {
 }
-.main-qulities-title1{ visibility: hide;}
+.main-qulities-title1{}
 .main-qualities-title {font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -282,7 +282,12 @@ color: #212121;}
 .portfolio-filter-marketing:hover{
 background: #F5F4FA;
 border-radius: 4px;}
-.portfolio-project-title-web{
+/* portfolio group */
+/* group1 */
+.portfolio-group1{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group1-title{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -291,7 +296,7 @@ line-height: 36px;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.portfolio-project-web{
+.portfolio-group1-p{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -300,13 +305,155 @@ line-height: 30px;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.portfolio-container{background: #FFFFFF;
+/* group2 */
+.portfolio-group2{background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
-.project-title-restoran{font-family: 'Roboto';
+.portfolio-group2-title{font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: #212121;}
+color: #212121;
+}
+.portfolio-group2-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group3 */
+.portfolio-group3{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group3-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group3-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group4 */
+.portfolio-group4{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group4-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group4-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group5 */
+.portfolio-group5{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group5-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group5-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group6 */
+.portfolio-group6{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group6-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group6-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group7 */
+.portfolio-group7{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group7-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group7-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group8 */
+.portfolio-group8{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group8-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group8-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
+/* group9 */
+.portfolio-group9{background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.portfolio-group9-title{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-group9-p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
