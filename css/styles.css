@@ -116,7 +116,7 @@ border-radius: 4px;
 /* main-qualities */
 .main-qualities {
 }
-.main-qulities-title1{}
+.main-qulities-title1{ display: none;}
 .main-qualities-title {font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
