@@ -20,7 +20,8 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;}
-.logo:focus{ color: #FFFFFF;}
+.logo:hover{ background-color: #2196F3; color: #FFFFFF;}
+.logo:focus{  back-ground-color: #2196F3; color: #FFFFFF;}
 .studio-logo { font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -37,8 +38,9 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;  
 }
+
 .nav-studio:hover{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -55,8 +57,9 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;}
 .nav-portfolio:hover{color: #2196F3;}
-
-
+.current {
+color: #2196F3;
+}
 .nav-contact{
     font-family: 'Roboto';
 font-style: normal;
@@ -97,7 +100,7 @@ color: #757575;
 .main-section {background: #2F303A;
 }
 .main-section-title{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -129,8 +132,8 @@ border-radius: 4px;
 .main-qualities {
 }
 .visually-hidden { position: absolute; white-space: nowrap; 
-  width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; 
-  clip: rect(0 0 0 ); clip-path: inset(50%); margin: -1px;}
+width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; 
+clip: rect(0 0 0 ); clip-path: inset(50%); margin: -1px;}
 .main-qualities-title {font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -141,7 +144,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .main-qualities-discription {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -152,7 +155,7 @@ color: #757575;
 .what-doing {
 }
 .what-doing-title {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -164,7 +167,7 @@ color: #212121;
 .our-time {background: #F5F4FA;
 }
 .our-time-title {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -174,7 +177,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .our-time-name {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -184,7 +187,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .our-time-position {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -203,7 +206,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .studio-footer {color:#FFFFFF}
 .footer-mail{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -222,7 +225,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover{ color: #2196F3;}
 .footer-adress {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -230,10 +233,12 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+.footer-adress:hover{ color: #2196F3;}
+.footer-adress:focus{ background-color: #2196F3;}
 
 /* portfolio filter*/
 .portfolio-filter-all{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -250,11 +255,11 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 }
 .portfolio-filter-all:focus{color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;}
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;}
 .portfolio-filter-web{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -265,14 +270,14 @@ color: #212121;
 background-color: #F5F4FA;
 }
 .portfolio-filter-web:hover{
-    color: #FFFFFF;
-      background: #2196F3;
+color: #FFFFFF;
+background: #2196F3;
 border-radius: 4px;}
 .portfolio-filter-web:focus {
-  color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .portfolio-filter-appendix{font-family: 'Roboto';
@@ -290,10 +295,10 @@ background-color: #F5F4FA;
 border-radius: 4px;
 }
 .portfolio-filter-appendix:focus {
-  color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .portfolio-filter-design{font-family: 'Roboto';
@@ -308,14 +313,14 @@ background-color: #F5F4FA;
 }
 .portfolio-filter-design:hover{
 color: #FFFFFF;
-  background: #2196F3;
+background: #2196F3;
 border-radius: 4px;
 }
 .portfolio-filter-design:focus {
-  color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .portfolio-filter-marketing{font-family: 'Roboto';
