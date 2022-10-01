@@ -419,6 +419,9 @@ line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);
 }
+.portfolio-group1-p:focus{ 
+  color: var(--color-white);
+}
 /* group2 */
 .portfolio-group2{
 background: var(--color-white);
