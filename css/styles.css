@@ -1,5 +1,8 @@
-
-:root{ 
+body { 
+  font-family: 'Roboto';
+font-style: normal;
+}
+  :root{ 
   --color-black: #212121;
   --color-black-secondary: #2F303A;
   --color-black-logo: #000000;  
@@ -10,7 +13,7 @@
   --color-primary: #EEEEEE;
 --color-white-secondary: #F5F4FA;}
 ul {list-style: none;}
-:focus {background-color: #2196F3;}
+:focus { background-color: var(--color-blue);}
 /* header */
 a { text-decoration: none;}
 a :focus
@@ -37,8 +40,8 @@ letter-spacing: 0.03em;
 color: var(--color-black-logo);
 }
 /* navigation */
-.nav-studio {font-family: 'Roboto'; 
-font-style: normal;
+.nav-studio {font-family: inherit; 
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -47,29 +50,34 @@ color: var(--color-black)
 }
 
 .nav-studio:hover{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--color-blue);
 }
+.nav-studio:focus { color: var(--color-white);}
 .nav-portfolio { 
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--color-black)}
-.nav-portfolio:hover{color: var(--color-blue);}
+.nav-portfolio:hover{
+  color: var(--color-blue);
+}
+.nav-portfolio:focus{ color: var(--color-white);
+}
 .current {
 color: var(--color-blue);
 }
 .nav-contact{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -78,8 +86,12 @@ color: var(--color-black)
 }
 .nav-contact:hover { color: var(--color-blue);
 }
-.header-mail {font-family: 'Roboto';
-font-style: normal;
+.nav-contact:focus{ 
+  color: var(--color-white);
+}
+.header-mail {
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -87,30 +99,38 @@ letter-spacing: 0.02em;
 color: var(--color-grey);
 }
 .header-mail:hover{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--color-blue);
 }
+.header-mail:focus{
+color: var(--color-white);
+}
 
-.header-phone {font-family: 'Roboto';
-font-style: normal;
+.header-phone {font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--color-grey);
 }
-.header-phone:hover{color: var(--color-blue);}
+.header-phone:hover{
+  color: var(--color-blue);
+}
+.header-phone:focus{
+  color: var(--color-white);
+}
 /* main section1 */
 .main-section {background: var(--color-black-secondary);
 }
 .main-section-title{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -123,7 +143,7 @@ color: var(--color-white);
 background: var(--color-blue);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-font-family: 'Roboto';
+font-family: inherit;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -152,8 +172,9 @@ border: 0; padding: 0;
 clip: rect(0 0 0 ); 
 clip-path: inset(50%); margin: -1px;
 }
-.main-qualities-title {font-family: 'Roboto';
-font-style: normal;
+.main-qualities-title {
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -162,8 +183,8 @@ text-transform: uppercase;
 color: var(--color-black);
 }
 .main-qualities-discription {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -173,8 +194,8 @@ color: var(--color-grey);
 .what-doing {
 }
 .what-doing-title {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -185,8 +206,8 @@ color: var(--color-black)
 .our-time {background: var(--color-white-secondary);
 }
 .our-time-title {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -195,8 +216,8 @@ letter-spacing: 0.03em;
 color: var(--color-black)
 }
 .our-time-name {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -205,8 +226,8 @@ letter-spacing: 0.03em;
 color: var(--color-black)
 }
 .our-time-position {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -226,8 +247,8 @@ border-radius: 0px 0px 4px 4px;
 color: var(--color-white);
 }
 .footer-mail{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -235,8 +256,9 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover{ color: var(--color-blue);}
-.footer-tel{font-family: 'Roboto';
-font-style: normal;
+.footer-tel{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -245,28 +267,32 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover{ color: var(--color-blue);}
 .footer-adress {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--color-white);
 }
-.footer-adress:hover{ color: var(--color-blue);}
-.footer-adress:focus{ background-color: var(--color-blue);}
+.footer-adress:hover{ 
+  color: var(--color-blue);
+}
+.footer-adress:focus{ 
+  background-color: var(--color-blue);
+}
 
 /* portfolio filter*/
 .portfolio-filter-all{
-font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-black);
-  background-color: var(--color-white-secondary);
+font-family: inherit;
+font-style: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-black);
+background-color: var(--color-white-secondary);
 }
 .portfolio-filter-all:hover{ 
 color: var(--color-white);
@@ -279,8 +305,8 @@ background: #2196F3;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;}
 .portfolio-filter-web{
-font-family: 'Roboto';
-  font-style: normal;
+font-family: inherit;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -301,8 +327,8 @@ border-radius: 4px;
 }
 
 .portfolio-filter-appendix{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -311,7 +337,8 @@ letter-spacing: 0.03em;
 color: var(--color-black);
 background-color: var(--color-white-secondary);
 }
-.portfolio-filter-appendix:hover{ color: var(--color-white);
+.portfolio-filter-appendix:hover{ 
+color: var(--color-white);
 background: var(--color-blue);
 border-radius: 4px;
 }
@@ -322,8 +349,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 }
 
-.portfolio-filter-design{font-family: 'Roboto';
-font-style: normal;
+.portfolio-filter-design{
+font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -344,8 +372,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 }
 
-.portfolio-filter-marketing{font-family: 'Roboto';
-font-style: normal;
+.portfolio-filter-marketing{
+  font-family: inherit;
+font-style: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -368,12 +397,13 @@ border-radius: 4px;}
 
 /* portfolio group */
 /* group1 */
-.portfolio-group1{background: var(--color-white);
+.portfolio-group1{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
 .portfolio-group1-title{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -381,8 +411,8 @@ letter-spacing: 0.06em;
 color: var(--color-black);
 }
 .portfolio-group1-p{
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -390,38 +420,44 @@ letter-spacing: 0.03em;
 color: var(--color-grey);
 }
 /* group2 */
-.portfolio-group2{background: var(--color-white);
+.portfolio-group2{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group2-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group2-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group2-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group2-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);}
 /* group3 */
-.portfolio-group3{background: var(--color-white);
+.portfolio-group3{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group3-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group3-title{
+  font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group3-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group3-p { 
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -429,19 +465,22 @@ letter-spacing: 0.03em;
 color: var(--color-grey);
 }
 /* group4 */
-.portfolio-group4{background: var(--color-white);
+.portfolio-group4{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group4-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group4-title{
+  font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group4-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group4-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -449,95 +488,110 @@ letter-spacing: 0.03em;
 color: var(--color-grey);
 }
 /* group5 */
-.portfolio-group5{background: var(--color-white);
+.portfolio-group5{
+  background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group5-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group5-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group5-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group5-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);}
 /* group6 */
-.portfolio-group6{background: var(--color-white);
+.portfolio-group6{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group6-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group6-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group6-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group6-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);}
 /* group7 */
-.portfolio-group7{background: var(--color-white);
+.portfolio-group7{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group7-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group7-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group7-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group7-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);}
 /* group8 */
-.portfolio-group8{background: var(--color-white);
+.portfolio-group8{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group8-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group8-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group8-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group8-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: var(--color-grey);}
 /* group9 */
-.portfolio-group9{background: var(--color-white);
+.portfolio-group9{
+background: var(--color-white);
 border: 1px solid var(--color-primary);
 }
-.portfolio-group9-title{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group9-title{
+font-family: inherit;
+font-style: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--color-black);
 }
-.portfolio-group9-p{font-family: 'Roboto';
-font-style: normal;
+.portfolio-group9-p{
+font-family: inherit;
+font-style: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
